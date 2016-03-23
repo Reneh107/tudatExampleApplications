@@ -189,5 +189,5 @@ endif( )
 add_executable(example_library_NRLMSISE00 "${SRCROOT}/Example_NRLMSISE00.cpp")
 setup_executable_target(example_library_NRLMSISE00 "${SRCROOT}")
 target_link_libraries(example_library_NRLMSISE00 
-                                 nrlmsise00 tudat_aerodynamics
+                                 tudat_aerodynamics nrlmsise00 tudat_basic_mathematics
 				 ${Boost_LIBRARIES} )
